@@ -1,0 +1,14 @@
+1. git 설치시 최초 한번만 설정하기
+	가. https://git-scm.com 에 접속하여 우측 중앙의 모니터 안에 있는 다운로드 버튼을 클릭하여 git 설치파일을 다운로드하고 설치한다.
+	나. 혹시 다른 사용자가 사용한 PC 라면... 제어판>자격증명관리자에서 일반 자격증명 관리에 git이 있다면 삭제한다.
+	다. cmd창 을 실행하고 라,마를 실행
+	라. git config --global user.name "본인아이디"
+	마. git config --global user.email "본인이메일"
+
+2. git 프로젝트 만들기
+	가. https://github.com 에 접속하고 로그인 한다.
+	나. 로그인 후 상단 우측의 [+] 를 눌른 후 [new repository] 를 선택한다.
+	다. vscode를 실행하고 [ctrl + shift + ~]를 실행하여 터미널 창을 연다.
+	라. 작업할 폴더를 선택하여 연다[파일>폴더열기]
+	마. 터미널 창에서 [git init] 실행
+	바. github의 설정화면에 보면 [git remote add origin https://github.com/booldook/rep.git]를 터미널 창에 [ctrl + v] 한다.
